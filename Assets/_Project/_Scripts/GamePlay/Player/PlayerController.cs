@@ -1,10 +1,7 @@
 using System;
-using DeepDig.Player;
-using DeepDig.System.Input;
-using DeepDig.System.Param;
 using UnityEngine;
 
-namespace TarodevController
+namespace GameBase.GamePlay
 {
     [RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
     public class PlayerController : MonoBehaviour
@@ -36,18 +33,12 @@ namespace TarodevController
 
         private bool _cachedQueryStartInColliders;
 
-        public void Init(PlayerContext context)
-        {
-            _input = context.Get<PlayerInputSystem>();
-        }
-
         private void Awake()
         {
             _rb = GetComponent<Rigidbody2D>();
             _col = GetComponent<CapsuleCollider2D>();
+            _input = GetComponent<PlayerInputSystem>();
             _cachedQueryStartInColliders = Physics2D.queriesStartInColliders;
-
-            
         }
 
         private void Update()

@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace DeepDig.System.Input
+namespace GameBase.GamePlay
 {
     public struct FrameInput
     {

@@ -1,6 +1,6 @@
 namespace DeepDig.Core.Constants
 {
-    public class Constants
+    public class GameBase
     {
         public static class Layers
         {

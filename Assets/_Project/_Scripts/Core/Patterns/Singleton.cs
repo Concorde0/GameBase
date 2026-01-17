@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace DeepDig.Core.Patterns.Singleton
+namespace GameBase
 {
     public abstract class Singleton<T> : MonoBehaviour where T : Singleton<T>
     {

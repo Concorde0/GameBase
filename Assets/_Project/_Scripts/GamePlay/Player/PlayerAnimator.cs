@@ -1,7 +1,7 @@
-using DeepDig.Player;
+using System;
 using UnityEngine;
 
-namespace TarodevController
+namespace GameBase.GamePlay
 {
     public class PlayerAnimator : MonoBehaviour
     {
@@ -11,12 +11,12 @@ namespace TarodevController
         private PlayerController _controller;
         private Rigidbody2D _rb;
 
-        public void Init(PlayerContext context)
+        private void Awake()
         {
-            _controller = context.Get<PlayerController>();
+            _controller = GetComponent<PlayerController>();
             _rb = _controller.GetComponent<Rigidbody2D>();
         }
-        
+
 
         private void OnEnable()
         {

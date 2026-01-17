@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace DeepDig.Core.Patterns.Pooling
+namespace GameBase
 {
     public interface IPoolable
     {
