@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Core.Patterns.Singleton;
 using UnityEngine;
 
-namespace System
+namespace Systems
 {
     public class GameManager : Singleton<GameManager>
     {
