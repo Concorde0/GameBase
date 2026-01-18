@@ -10,8 +10,14 @@ namespace Systems
     {
         private void Update()
         {
+            HandleMove();
             HandleJump();
             HandleMove();
+        }
+
+        private void HandleMove()
+        {
+            throw new NotImplementedException();
         }
 
         private void HandleJump()
