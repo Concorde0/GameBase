@@ -1,4 +1,4 @@
-namespace DeepDig.Core.Constants
+namespace Core.Constants
 {
     public class Constants
     {

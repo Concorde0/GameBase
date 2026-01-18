@@ -1,10 +1,6 @@
-using DeepDig.Player;
-using DeepDig.System.Input;
-using DeepDig.System.Param;
-using TarodevController;
 using UnityEngine;
 
-namespace DeepDig.Player
+namespace GamePlay
 {
     public class PlayerInitializer : MonoBehaviour
     {

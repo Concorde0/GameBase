@@ -1,10 +1,8 @@
 using System;
-using DeepDig.Player;
-using DeepDig.System.Input;
-using DeepDig.System.Param;
+using GamePlay;
 using UnityEngine;
 
-namespace TarodevController
+namespace GamePlay
 {
     [RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
     public class PlayerController : MonoBehaviour

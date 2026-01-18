@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace DeepDig.Player
+namespace GamePlay
 {
     public class PlayerContext
     {

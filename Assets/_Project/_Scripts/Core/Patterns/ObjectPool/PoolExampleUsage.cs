@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace DeepDig.Core.Patterns.Pooling
+namespace Core.Patterns.Pooling
 {
     
     public class PoolExampleUsage : MonoBehaviour
