@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using JetBrains.Annotations;
 using Object = UnityEngine.Object;
 
-namespace DeepDig.Core.Timer 
+namespace Core.Timer 
 { 
     public class Timer
     {

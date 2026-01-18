@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace DeepDig.System.Param
+namespace GamePlay
 {
     public class PlayerParams
     {

@@ -1,7 +1,6 @@
-using DeepDig.Player;
 using UnityEngine;
 
-namespace TarodevController
+namespace GamePlay
 {
     public class PlayerAnimator : MonoBehaviour
     {

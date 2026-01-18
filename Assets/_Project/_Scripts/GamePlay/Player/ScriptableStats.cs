@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Serialization;
 
-namespace TarodevController
+namespace GamePlay
 {
     [CreateAssetMenu]
     public class ScriptableStats : ScriptableObject
