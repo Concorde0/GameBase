@@ -8,10 +8,15 @@ namespace Systems
 {
     public class GameManager : Singleton<GameManager>
     {
+        public bool isSprinting = false;
         private void Update()
         {
             HandleMove();
             HandleJump();
+            if (isSprinting)
+            {
+                transform.Translate(Vector3.forward * (10f * Time.deltaTime));
+            }
         }
         
 
