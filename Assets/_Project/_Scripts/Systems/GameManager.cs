@@ -9,6 +9,7 @@ namespace Systems
     public class GameManager : Singleton<GameManager>
     {
         public bool isSprinting = false;
+        public float speed = 5f;
         private void Update()
         {
             HandleMove();
@@ -17,6 +18,7 @@ namespace Systems
             {
                 transform.Translate(Vector3.forward * (10f * Time.deltaTime));
             }
+            transform.Translate(Vector3.forward * (speed * Time.deltaTime));
         }
         
 
