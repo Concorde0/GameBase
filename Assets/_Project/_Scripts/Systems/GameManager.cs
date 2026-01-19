@@ -8,10 +8,12 @@ namespace Systems
 {
     public class GameManager : Singleton<GameManager>
     {
+        public float speed = 5f;
         private void Update()
         {
             HandleMove();
             HandleJump();
+            transform.Translate(Vector3.forward * (speed * Time.deltaTime));
         }
         
 
