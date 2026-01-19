@@ -12,13 +12,8 @@ namespace Systems
         {
             HandleMove();
             HandleJump();
-            HandleMove();
         }
-
-        private void HandleMove()
-        {
-            throw new NotImplementedException();
-        }
+        
 
         private void HandleJump()
         {
